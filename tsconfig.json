@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/src",
+    "module": "commonJs",
+    "target": "esnext",
+    "lib": ["esnext", "DOM"],
+    "sourceMap": true,
+    "baseUrl": "./src",
+    "noEmit": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": false,
+    "ignoreDeprecations": "5.0",
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": false,
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "strict": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+  ]
+}
