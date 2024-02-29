@@ -25,8 +25,10 @@ export default {
     database: "h_admin",
   },
   route: {
+    // 白名单
     whiteList: [
       '/admin/login',
+      '/admin/code',
       '/health'
     ]
   },
